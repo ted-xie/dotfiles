@@ -9,7 +9,7 @@ popd
 
 # Install vim-opencl
 pushd ~/.vim/bundle
-git clone git://github.com/petRUShka/vim-opencl.git ~/.vim/bundle
+git clone git://github.com/petRUShka/vim-opencl.git
 popd
 
 # Move vimrc to home directory
