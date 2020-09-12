@@ -2,8 +2,6 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-set smartindent tabstop=4 shiftwidth=4 expandtab
-
 " Uncomment the following to have Vim jump to the last position when
 " " reopening a file
 if has("autocmd")
@@ -11,4 +9,10 @@ if has("autocmd")
 endif
 
 set nu
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
+au BufRead,BufNewFile *.md setlocal textwidth=80
 
